@@ -11,13 +11,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px solid red;
+}
 .header {
   background-color: var(--dark-blue);
-  padding: 30px px
+ 
 }
 
-.nav {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +43,7 @@
 }
 .language {
   display: flex;
-  padding:30px 165px 30px 73px;
+ 
 }
 .lang-btn {
   background-color: transparent;
