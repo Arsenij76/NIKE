@@ -52,3 +52,67 @@
   padding: 2px 1px;
 }
 
+.hero {
+  background: url('./fotos.png/fon1.png') no-repeat center/cover;
+  padding: 100px 0;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.hero .logo {
+  width: 160px;
+  height: 120px;
+}
+
+
+.hero h2:nth-of-type(1) {
+  font-family: 'PT Serif', serif;
+  font-size: 86px;
+  color: var(--white);
+  margin-top: 10px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 144px;
+  color: var(--white);
+  line-height: 1.2;
+  max-width: 640px;
+}
+.hero h2:nth-of-type(2) {
+ font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  color: var(--white);
+  line-height: 1.2;
+  max-width: 540px;
+}
+
+.hero p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: var(--grey);
+  max-width: 508px;
+  line-height: 1.3;
+}
+
+.hero .btn {
+  margin-top: 41px;
+  padding: 20px 61px;
+  background-color: var(--purple);
+  border: none;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero .btn a {
+color: var(--white);
+text-decoration: none;
+font-size: 24px;
+}
+
+
