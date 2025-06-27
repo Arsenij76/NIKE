@@ -115,4 +115,60 @@ text-decoration: none;
 font-size: 24px;
 }
 
+.advantages-section {
+  background: url(./fotos.png/фон2.png) no-repeat center/cover;
+  padding: 105px 0;
+}
 
+.advantages-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  border: 3px solid var(--purple);
+  border-radius: 0;
+  padding: 40px 20px;
+  list-style: none;
+  position: relative;
+  gap: 40px;
+}
+
+.adv-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.adv-item p {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: var(--white);
+  margin: 0 0 15px;
+}
+
+.advantages-container li:nth-child(1) {
+  flex-direction: column-reverse;
+}
+
+.advantages-container li:nth-child(3) {
+  flex-direction: column-reverse;
+}
+
+.adv-img {
+  width: 240px;
+  height: 240px;
+  margin: 25px 0;
+}
+
+.adv-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 25px;
+  bottom: 25px;
+  right: 0;
+  width: 1px;
+  background-color: var(--grey);
+}
