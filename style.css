@@ -13,8 +13,6 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--white);
-  background-color: var(--very-dark-blue);
 }
 .container {
     width: 1140px;
@@ -176,4 +174,113 @@ font-size: 24px;
   right: 0;
   width: 1px;
   background-color: var(--grey);
+}
+.reviews {
+  position: relative; 
+  background-image: url(./fotos.png/фон3.png);
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 115px 0;
+  width: 100%;
+}
+
+.corner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 340px;  
+  height: 380px; 
+  background-image: url(/fotos.png/цветы1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+
+.rewiews-container h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--white);
+}
+
+.review-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 93px;
+  list-style: none;
+}
+.card:nth-child(1) {
+  background-image: url(./fotos.png/Reviews1.png); 
+}
+
+.card:nth-child(2){
+  background-image: url(./fotos.png/Reviews2.png);
+}
+
+.card:nth-child(3){
+  background-image: url(./fotos.png/Reviews3.png);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  width: 255px;
+  height: 330px;
+  padding: 14px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-content p:first-of-type {
+  color: var(--white);
+  font-size: 24px;
+}
+
+.card-content .date {
+  font-size: 14px;
+  color: var(--grey);
+  margin-bottom: 47px; 
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-author img {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+}
+
+.card-author .author {
+  font-size: 14px;
+  color: var(--white);
+}
+
+.card-author .since {
+  font-size: 12px;
+  color: var(--grey);
+  line-height: auto ;
+  display: block;
+  margin-top: 1px;
 }
