@@ -1,9 +1,9 @@
 :root {
- --dark-blue: #012D63;       
-  --white: #FFFFFF;          
-  --purple: #8E32C6;          
-  --very-dark-blue: #021635;  
-  --grey: #C7C7C7;
+  --dark-blue: #012d63;
+  --white: #ffffff;
+  --purple: #8e32c6;
+  --very-dark-blue: #021635;
+  --grey: #c7c7c7;
 }
 
 * {
@@ -12,17 +12,16 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .container {
-    width: 1140px;
-    margin: 0 auto;
-    padding: 0 15px;
-    border: 1px solid red;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid red;
 }
 .header {
   background-color: var(--dark-blue);
- 
 }
 
 .header-container {
@@ -46,17 +45,15 @@ body {
 }
 .language {
   display: flex;
- 
 }
 .lang-btn {
-  background-color: transparent;
   color: var(--white);
   border: 1px solid var(--dark-blue);
   padding: 2px 1px;
 }
 
 .hero {
-  background: url('./fotos.png/fon1.png') no-repeat center/cover;
+  background: url("./fotos.png/fon1.png") no-repeat center/cover;
   padding: 100px 0;
 }
 
@@ -72,23 +69,22 @@ body {
   height: 120px;
 }
 
-
 .hero h2:nth-of-type(1) {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 86px;
   color: var(--white);
   margin-top: 10px;
 }
 
 .hero h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 144px;
   color: var(--white);
   line-height: 1.2;
   max-width: 640px;
 }
 .hero h2:nth-of-type(2) {
- font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 72px;
   color: var(--white);
   line-height: 1.2;
@@ -96,7 +92,7 @@ body {
 }
 
 .hero p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: var(--grey);
   max-width: 508px;
@@ -107,15 +103,14 @@ body {
   margin-top: 41px;
   padding: 20px 61px;
   background-color: var(--purple);
-  border: none;
   border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero .btn a {
-color: var(--white);
-text-decoration: none;
-font-size: 24px;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .advantages-section {
@@ -125,13 +120,8 @@ font-size: 24px;
 
 .advantages-container {
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
   border: 3px solid var(--purple);
-  border-radius: 0;
   padding: 40px 20px;
-  list-style: none;
-  position: relative;
   gap: 40px;
 }
 
@@ -146,7 +136,7 @@ font-size: 24px;
 }
 
 .adv-item p {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   color: var(--white);
   margin: 0 0 15px;
@@ -167,7 +157,7 @@ font-size: 24px;
 }
 
 .adv-item:not(:last-child)::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 25px;
   bottom: 25px;
@@ -176,30 +166,15 @@ font-size: 24px;
   background-color: var(--grey);
 }
 .reviews {
-  position: relative; 
-  background-image: url(./fotos.png/фон3.png);
-  background-size: cover;
-  background-position: left center;
+  background-image: url(./fotos.png/fon3.png);
+  background-position: center;
   background-repeat: no-repeat;
   padding: 115px 0;
   width: 100%;
 }
 
-.corner {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 340px;  
-  height: 380px; 
-  background-image: url(/fotos.png/цветы1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  
-}
-
-
 .rewiews-container h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 48px;
   font-weight: normal;
   text-align: center;
@@ -214,29 +189,43 @@ font-size: 24px;
   list-style: none;
 }
 .card:nth-child(1) {
-  background-image: url(./fotos.png/Reviews1.png); 
+  background-image: linear-gradient(
+    136.55deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
 
-.card:nth-child(2){
-  background-image: url(./fotos.png/Reviews2.png);
+.card:nth-child(2) {
+  background-image: linear-gradient(
+    136.55deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
 }
 
-.card:nth-child(3){
-  background-image: url(./fotos.png/Reviews3.png);
+.card:nth-child(3) {
+  background-image: linear-gradient(
+    142.67deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-size: cover;
-  background-position: center;
   width: 255px;
-  height: 330px;
   padding: 14px;
   border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
-  position: relative;
+  font-family: "Roboto", sans-serif;
 }
 
 .card-content {
@@ -253,19 +242,14 @@ font-size: 24px;
 .card-content .date {
   font-size: 14px;
   color: var(--grey);
-  margin-bottom: 47px; 
+  margin-bottom: 47px;
 }
 
 .card-author {
   display: flex;
-  align-items: center;
   gap: 5px;
 }
-.author-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 .card-author img {
   width: 31px;
   height: 31px;
@@ -280,7 +264,5 @@ font-size: 24px;
 .card-author .since {
   font-size: 12px;
   color: var(--grey);
-  line-height: auto ;
-  display: block;
   margin-top: 1px;
 }
