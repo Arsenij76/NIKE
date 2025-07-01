@@ -20,6 +20,7 @@ body {
   padding: 0 15px;
   border: 1px solid red;
 }
+
 .header {
   background-color: var(--dark-blue);
 }
@@ -29,15 +30,18 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   width: 100px;
   height: 60px;
 }
+
 .nav-links {
   list-style: none;
   display: flex;
   gap: 29px;
 }
+
 .nav-links a {
   color: var(--white);
   text-decoration: none;
@@ -266,3 +270,5 @@ body {
   color: var(--grey);
   margin-top: 1px;
 }
+
+
