@@ -4,6 +4,7 @@
   --purple: #8e32c6;
   --very-dark-blue: #021635;
   --grey: #c7c7c7;
+  --grey-2: #959595;
 }
 
 * {
@@ -54,6 +55,7 @@ body {
   color: var(--white);
   border: 1px solid var(--dark-blue);
   padding: 2px 1px;
+  background-color: var(--dark-blue);
 }
 
 .hero {
@@ -175,6 +177,7 @@ body {
   background-repeat: no-repeat;
   padding: 115px 0;
   width: 100%;
+  background-size: cover;
 }
 
 .rewiews-container h2 {
@@ -271,4 +274,67 @@ body {
   margin-top: 1px;
 }
 
+.order {
+  background-image: url(./fotos.png/фон4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
 
+.order h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 33px;
+  color: var(--white);
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.order-form input {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: var(--grey-2);
+  background-color: var(--white);
+  border-radius: 50px;
+  padding: 13px 20px;
+  width: 100%;
+  max-width: 580px;
+  margin-bottom: 19px;
+}
+
+.order-form input[type="email"] {
+  max-width: 690px;
+}
+
+.confirm-btn {
+  position: absolute;
+  top: 0;
+  right: 203px;
+  height: 60px;
+  border: none;
+  background-color: transparent;
+  color: #8d8d8d;
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  padding: 0 78px;
+}
+
+.order-form .btn {
+  background-color: var(--purple);
+  color: var(--white);
+  border: none;
+  padding: 20px 48px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-top: 39px;
+  cursor: pointer;
+}
