@@ -15,6 +15,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--very-dark-blue);
 }
 .container {
   width: 1140px;
@@ -178,7 +179,6 @@ body {
   background-repeat: no-repeat;
   padding: 115px 0;
   width: 100%;
-  background-size: cover;
 }
 
 .rewiews-container h2 {
@@ -277,9 +277,11 @@ body {
 
 .order {
   background-image: url(./fotos.png/фон4.png);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px 0;
+  background-size: auto;
+  padding-top: 25px;
+  padding-bottom: 80px;
 }
 
 .order h2 {
@@ -287,8 +289,7 @@ body {
   font-size: 48px;
   font-weight: normal;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 33px;
+  margin-bottom: 33px;
   color: var(--white);
 }
 
@@ -336,12 +337,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   border-radius: 10px;
-  margin-top: 39px;
   cursor: pointer;
 }
 .footer {
   background-color: var(--very-dark-blue);
-  padding: 45px 64px 50px;
+  padding: 45px 0 50px;
   color: var(--white);
   font-family: "Roboto", sans-serif;
 }
