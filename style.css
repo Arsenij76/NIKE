@@ -61,7 +61,7 @@ body {
 }
 
 .hero {
-  background: url("./fotos.png/fon1.png") ;
+  background: url("./images/fon1.png") ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,7 +125,7 @@ body {
 }
 
 .advantages-section {
-  background: url(./fotos.png/фон2.png);
+  background: url(./images/фон2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -180,7 +180,7 @@ body {
   background-color: var(--grey);
 }
 .reviews {
-  background-image: url(./fotos.png/fon3.png);
+  background-image: url(./images/fon3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -283,7 +283,7 @@ body {
 }
 
 .order {
-  background-image: url(./fotos.png/Order.png);
+  background-image: url(./images/Order.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
