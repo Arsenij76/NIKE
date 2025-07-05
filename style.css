@@ -61,7 +61,10 @@ body {
 }
 
 .hero {
-  background: url("./fotos.png/fon1.png") no-repeat center/cover;
+  background: url("./fotos.png/fon1.png") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 100px 0;
 }
 
@@ -122,7 +125,10 @@ body {
 }
 
 .advantages-section {
-  background: url(./fotos.png/фон2.png) no-repeat center/cover;
+  background: url(./fotos.png/фон2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 105px 0;
 }
 
@@ -177,6 +183,7 @@ body {
   background-image: url(./fotos.png/fon3.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 115px 0;
   width: 100%;
 }
@@ -276,10 +283,10 @@ body {
 }
 
 .order {
-  background-image: url(./fotos.png/фон4.png);
+  background-image: url(./fotos.png/Order.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   padding-top: 25px;
   padding-bottom: 80px;
 }
